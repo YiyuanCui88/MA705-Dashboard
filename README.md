@@ -1,4 +1,4 @@
-# MA705 Final Project _ Yiyuan Cui
+# MA705 Final Project_Yiyuan Cui
 
 This repository contains files used in the MA705 dashboard project.
 
@@ -28,6 +28,12 @@ Lastly, I used the [MaterFile](https://github.com/YiyuanCui88/MA705-Dashboard/bl
 
 
 
-### Other Comments
+### Plotly References
+https://dash.plotly.com/dash-core-components/checklist
+https://plotly.com/python/plotly-express/#overview
+https://dash.plotly.com/layout
+https://plotly.com/python/legend/
 
-Anything you'd like to add
+
+
+
