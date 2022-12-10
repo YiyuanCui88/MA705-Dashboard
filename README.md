@@ -1,10 +1,12 @@
-# MA705 Final Project
+# MA705 Final Project _ Yiyuan Cui
 
 This repository contains files used in the MA705 dashboard project.
 
 Use Markdown to write your readme.md file.  Here is a [cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
-The final dashboard is deployed on Heroku [here](https://yiyuancui.herokuapp.com/).
+The final dashboard is deployed on Heroku: [Rental Market of Selected Areas in Masschusetts](https://yiyuancui.herokuapp.com/).
+
+
 
 ## Dashboard Description
 
