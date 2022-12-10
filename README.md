@@ -22,7 +22,7 @@ Firstly, through Realty Mole Property on Rapid API [here](https://rapidapi.com/r
 
 Secondly, I processed the .json data of each city obtained through API to data frame which were saved into .csv files. Then, I did data wrangling to integrate the data file of these five cities into one MasterFile. The five city csv files and wrangling.py file have been saved in [Data_Wrangling](https://github.com/YiyuanCui88/MA705-Dashboard/tree/main/Data_Wrangling) folder.
 
-Lastly, I used the MaterFile as the data frame to create the interactive dashboard. 
+Lastly, I used the [MaterFile](https://github.com/YiyuanCui88/MA705-Dashboard/blob/main/MasterFile.csv) as the data frame to create the interactive dashboard. 
 
 
 
