@@ -36,9 +36,8 @@ server = app.server
 
 
 
-
 #Dataframe
-df = pd.read_excel("Master File.xlsx")
+df = pd.read_csv("Master File.csv")
 df[['Year','Month']] = df.Date.str.split('-',expand=True)
 
 df_bar = df.groupby(['City','Bedrooms','Year'])['Total Rentals'].sum().round().reset_index()
