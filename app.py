@@ -37,13 +37,11 @@ server = app.server
 
 
 #Dataframe
-df = pd.read_csv("Master File.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/YiyuanCui88/MA705-Dashboard/main/MasterFile.csv")
 df[['Year','Month']] = df.Date.str.split('-',expand=True)
 
 df_bar = df.groupby(['City','Bedrooms','Year'])['Total Rentals'].sum().round().reset_index()
-#df_table = df.groupby(['City','Zip','Population','Median Household Income',\
-#                      'Bedrooms','Year'])[['Avg_Rent']].mean().round().\
-#                        reset_index().sort_values(by=['Avg_Rent'], ascending=False)
+
                         
                         
 df_table = df.groupby(['City','Zip','Population','Median Household Income','Bedrooms','Year'])
@@ -304,12 +302,7 @@ def update_bar(cities, bedroom, year):
                                       xanchor="right",
                                       x=1),
                           margin=dict(l=150, r=150)
-                              )
-    
-    
-
-                          
-                          
+                              )         
     
     return fig_bar
 
