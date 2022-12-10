@@ -30,8 +30,11 @@ Lastly, I used the [MaterFile](https://github.com/YiyuanCui88/MA705-Dashboard/bl
 
 ### Plotly References
 https://dash.plotly.com/dash-core-components/checklist
+
 https://plotly.com/python/plotly-express/#overview
+
 https://dash.plotly.com/layout
+
 https://plotly.com/python/legend/
 
 
