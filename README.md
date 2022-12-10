@@ -19,8 +19,13 @@ This dashboard shows the total rentals in different cities and years, and averag
 
 Brief description of where/how you got the data and how it was processed.
 
-- List of Sources
-- List of Sources
+Firstly, through Realty Mole Property on Rapid API [here](https://rapidapi.com/realtymole/api/realty-mole-property-api), I obtained the rental data of five different zip codes from five different cities through API requests. Additional data of the selected zip codes, including population and median household income were obtained through Massachusetts Demographics by Cubit [here](https://www.massachusetts-demographics.com/). The five API request.py files have been saved in ‘Data_Collection_API’ folder.
+
+Secondly, I processed the .json data of each city obtained through API to data frame which were saved into .csv files. Then, I did data wrangling to integrate the data file of these five cities into one MasterFile. The five city csv files and wrangling.py file have been saved in ‘Data_Wrangling’ folder.
+
+Lastly, I used the MaterFile as the data frame to create the interactive dashboard. 
+
+
 
 ### Other Comments
 
