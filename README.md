@@ -1,10 +1,12 @@
-# MA705 Final Project
+# MA705 Final Project_Yiyuan Cui
 
 This repository contains files used in the MA705 dashboard project.
 
 Use Markdown to write your readme.md file.  Here is a [cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
-The final dashboard is deployed on Heroku [here](https://ma705bostonuniversities.herokuapp.com).
+The final dashboard is deployed on Heroku: [Rental Market of Selected Areas in Masschusetts](https://yiyuancui.herokuapp.com/).
+
+
 
 ## Dashboard Description
 
@@ -26,6 +28,15 @@ Lastly, I used the [MaterFile](https://github.com/YiyuanCui88/MA705-Dashboard/bl
 
 
 
-### Other Comments
+### Plotly References
+https://dash.plotly.com/dash-core-components/checklist
 
-Anything you'd like to add
+https://plotly.com/python/plotly-express/#overview
+
+https://dash.plotly.com/layout
+
+https://plotly.com/python/legend/
+
+
+
+
